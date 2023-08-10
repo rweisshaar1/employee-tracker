@@ -13,12 +13,12 @@ VALUES
   ("General Manager", 1,  45000),
   ("CEO", 1, 10000000);
 
-INSERT INTO employee (firstName, lastName, role_id, manager_id) -- not done yet, how to get manager id to line up with employee
+INSERT INTO employee (firstName, lastName, role_id, manager_id)
 VALUES 
-  ("Jimmy", "James", 1 , False),
-  ("Bob", "Robert", 4 , True ),
-  ("Kyle", "Man" , 5 , True ),
-  ("Tina", "Turner", 2 , False),
-  ("Fred", "Flintstone" , 3 , False),
-  ("Billy", "Madison", 6 , True),
-  ("Martha", "Stewart" , 7 , True);
+  ("Jimmy", "James", 1, 2 ),
+  ("Bob", "Robert", 4 , null ),
+  ("Kyle", "Man" , 5 , null ),
+  ("Tina", "Turner", 2, 3 ),
+  ("Fred", "Flintstone" , 3 , 6),
+  ("Billy", "Madison", 6 , null),
+  ("Martha", "Stewart" , 7 , 7);

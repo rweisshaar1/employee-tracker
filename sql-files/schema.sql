@@ -22,5 +22,5 @@ CREATE TABLE employee (
   lastName VARCHAR(30) NOT NULL,
   role_id INT NOT NULL,
   FOREIGN KEY (role_id) REFERENCES roles(role_id),
-  manager_id BOOLEAN DEFAULT FALSE
+  manager_id INT
 );
