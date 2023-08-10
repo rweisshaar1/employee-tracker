@@ -14,4 +14,4 @@
 - https://github.com/rweisshaar1/employee-tracker
 
 ## Screen Recording:
-<video src='./screen-recording.mov' width=500/>
+<video src='./screen-recording.mov' width=300/>
